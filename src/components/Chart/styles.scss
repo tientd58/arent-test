@@ -1,0 +1,35 @@
+
+.chart-body-record {
+  background-color: #414141;
+}
+.options-chart {
+  display: flex;
+  padding: 25px;
+  div {
+    background-color: #fff;
+    padding: 2px 21px;
+    border-radius: 11px;
+    margin-right: 10px;
+    span {
+      color: #FFCC21;
+      text-align: center;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 22px;
+      letter-spacing: 0.075px;
+    }
+    &:hover, :active {
+      background-color: #FFCC21;
+      span {
+        color: #fff;
+      }
+    }
+  }
+}
+.chart-body {
+  height: 300px;
+  canvas {
+    width: 100% !important;
+  }
+}

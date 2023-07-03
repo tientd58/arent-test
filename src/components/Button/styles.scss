@@ -1,0 +1,18 @@
+
+.primary-button {
+  margin: 20px 0;
+  padding: 16px 40px;
+  background-image: linear-gradient(#FF963C, #FFCC21);
+  border-color: transparent;
+  &:hover {
+    border-color: transparent;
+  }
+  span {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+  }
+  }

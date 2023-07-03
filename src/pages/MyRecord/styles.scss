@@ -1,0 +1,79 @@
+
+.my-exercise-container {
+  background-color: #414141;
+  margin: 20px 0;
+  color: #fff;
+  .my-exercise-table {
+    margin: 20px 0;
+    height: 264px;
+    max-height: 264px;
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-color: #FFCC21;
+    .exercise-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: #777777 1px solid;
+      padding-left: 0;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      ul {
+        padding-left: 15px;
+        margin: 0;
+        li {
+          p:first-child {
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 22px;
+            letter-spacing: 0.075px;
+            margin-bottom: 0;
+          }
+          p:nth-child(2) {
+            color: #FFCC21;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 18px;
+            letter-spacing: 0.075px;
+            margin-bottom: 0;
+          }
+        }
+      }
+      .time-exercise {
+        color: #FFCC21;
+        text-align: right;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: 0.09px;
+      }
+    }
+    .my-exercise-table-row {
+      justify-content: space-around;
+    }
+  }
+}
+
+.scope-header {
+  color: #fff;
+  padding-left: 30px;
+  padding-top: 20px;
+  word-spacing: 9999px;
+  span:first-child {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.15px;
+  }
+  span:last-child {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.11px;
+    padding-left: 30px;
+  }
+}
